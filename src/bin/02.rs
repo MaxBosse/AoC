@@ -68,9 +68,8 @@ pub fn part_two(input: &str) -> Option<u32> {
     let re = Regex::new(r"^Game ([0-9]+): (.*)$").unwrap();
 
     for line in input.lines() {
-        let Some((_full, [game_id, games])) = re.captures(line).map(|c| c.extract()) else { continue; };
+        let Some((_full, [_game_id, games])) = re.captures(line).map(|c| c.extract()) else { continue; };
 
-        let game_num: u32 = game_id.parse().unwrap();
         let mut cur_group_num = 0;
 
         for game in games.split(";") {
