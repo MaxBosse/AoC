@@ -77,7 +77,6 @@ pub fn part_two(input: &str) -> Option<u32> {
         }
 
         let num: u32 = format!("{}{}", first_digit, second_digit).parse().unwrap();
-        println!("{}", num);
         total += num;
     }
 

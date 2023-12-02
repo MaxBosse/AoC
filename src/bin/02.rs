@@ -107,7 +107,6 @@ pub fn part_two(input: &str) -> Option<u32> {
             }
         }
 
-        println!("Min Green: {}, Min Blue: {}, Min red: {}", max_green, max_blue, max_red);
         total += max_blue * max_green * max_red;
         max_red = 0;
         max_green = 0;
