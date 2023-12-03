@@ -1,6 +1,6 @@
 <img src="./.assets/christmas_ferris.png" width="164">
 
-# 🎄 Advent of Code {year}
+# 🎄 Advent of Code 2023
 
 Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
@@ -11,10 +11,11 @@ Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.
 
 | Day | Part 1 | Part 2 |
 | :---: | :---: | :---:  |
-| [Day 1](./src/bin/01.rs) | `44.9µs` | `100.3µs` |
-| [Day 2](./src/bin/02.rs) | `106.2µs` | `117.1µs` |
+| [Day 1](./src/bin/01.rs) | `41.4µs` | `99.2µs` |
+| [Day 2](./src/bin/02.rs) | `105.4µs` | `116.4µs` |
+| [Day 3](./src/bin/03.rs) | `897.9µs` | `1.0ms` |
 
-**Total: 0.37ms**
+**Total: 2.26ms**
 <!--- benchmarking table --->
 
 ---
@@ -186,7 +187,7 @@ To enable it, complete the following steps:
 
 #### 1. Create a private leaderboard
 
-Go to the leaderboard page of the year you want to track and click _Private Leaderboard_. If you have not created a leaderboard yet, create one by clicking _Create It_. Your leaderboard should be accessible under `https://adventofcode.com/{year}/leaderboard/private/view/{aoc_user_id}`.
+Go to the leaderboard page of the year you want to track and click _Private Leaderboard_. If you have not created a leaderboard yet, create one by clicking _Create It_. Your leaderboard should be accessible under `https://adventofcode.com/2023/leaderboard/private/view/{aoc_user_id}`.
 
 #### 2. Set repository secrets
 
